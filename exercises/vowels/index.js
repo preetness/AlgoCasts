@@ -8,6 +8,13 @@
 //   vowels('Why?') --> 0
 
 function vowels(str) {
+  const matches = str.match[/[aeiou]/gi];
+  return matches ? matches.length : 0;
+}
+
+module.exports = vowels;
+
+function vowels(str) {
   let vowelCount = 0;
   const letters = ['a', 'e', 'i', 'o', 'u'];
 
@@ -19,5 +26,3 @@ function vowels(str) {
 
   return vowelCount;
 }
-
-module.exports = vowels;
