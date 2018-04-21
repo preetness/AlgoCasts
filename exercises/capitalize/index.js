@@ -21,6 +21,7 @@ function capitalize(str) {
 
 module.exports = capitalize;
 
+// Alternate solution
 function capitalize(str) {
   let words = [];
 
