@@ -14,6 +14,7 @@ function reverse(str) {
 }
 
 module.exports = reverse;
+// Alternate solutions
 
 // function reverse(str) {
 //   let reversed = '';
