@@ -14,15 +14,15 @@ function vowels(str) {
 
 module.exports = vowels;
 
-function vowels(str) {
-  let vowelCount = 0;
-  const letters = ['a', 'e', 'i', 'o', 'u'];
+// function vowels(str) {
+//   let vowelCount = 0;
+//   const letters = ['a', 'e', 'i', 'o', 'u'];
 
-  for (let char of str.toLowerCase()) {
-    if (letters.includes(char)) {
-      vowelCount++;
-    }
-  }
+//   for (let char of str.toLowerCase()) {
+//     if (letters.includes(char)) {
+//       vowelCount++;
+//     }
+//   }
 
-  return vowelCount;
+//   return vowelCount;
 }
