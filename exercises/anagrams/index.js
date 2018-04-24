@@ -23,6 +23,8 @@ function scrubString(str) {
 
 module.exports = anagrams;
 
+// Alternate solutions:
+
 // function buildCharMap(str) {
 //   const charMap = {};
 //   for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
