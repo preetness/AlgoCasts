@@ -17,17 +17,19 @@ function palindrome(str) {
 
 module.exports = palindrome;
 
-function palindrome(str) {
-  let reversedString = '';
+//Alternate solutions
 
-  for (let character of str) {
-    reversedString = character + reversedString;
-  }
-  return reversedString === str;
-}
+// function palindrome(str) {
+//   let reversedString = '';
 
-function palindrome(str) {
-  return str.split('').every((char, i) => {
-    return char === str[str.length - i - 1];
-  });
-}
+//   for (let character of str) {
+//     reversedString = character + reversedString;
+//   }
+//   return reversedString === str;
+// }
+
+// function palindrome(str) {
+//   return str.split('').every((char, i) => {
+//     return char === str[str.length - i - 1];
+//   });
+// }
