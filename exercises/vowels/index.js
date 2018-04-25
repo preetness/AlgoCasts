@@ -14,6 +14,8 @@ function vowels(str) {
 
 module.exports = vowels;
 
+// Alternative solution
+
 // function vowels(str) {
 //   let vowelCount = 0;
 //   const letters = ['a', 'e', 'i', 'o', 'u'];
